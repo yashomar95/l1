@@ -34,7 +34,7 @@ public class Main
 	{
 	    while(start<end)
 		{
-		  int  mid=start+((end-start)/2);
+		  int  mid=start+(((end-start)+1)/2);
 		   if(Integer.parseInt(arr[mid])<=key)
 		   {
 		        start=mid;
